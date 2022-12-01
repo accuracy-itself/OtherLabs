@@ -1,0 +1,945 @@
+{
+  "id": "baa89e5f-310a-4023-a6c8-8b2fc0f8f70d",
+  "version": "2.0",
+  "name": "SchoolTests",
+  "url": "https://gimnasia.volozhin-edu.gov.by/",
+  "tests": [{
+    "id": "1afeb36d-7ea8-4ff1-bdc6-e45e05c7261b",
+    "name": "VisuallyImpairedTest",
+    "commands": [{
+      "id": "73ad247f-8189-468d-be23-1bf53e673f7e",
+      "comment": "",
+      "command": "open",
+      "target": "https://gimnasia.volozhin-edu.gov.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bebe87b8-333a-4317-8e1b-ebdee1cfc819",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "908x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "589b92ff-5995-4c91-8e56-cacae76fe69c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-eye-open",
+      "targets": [
+        ["css=.glyphicon-eye-open", "css:finder"],
+        ["xpath=//div[@id='header_bar']/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d33be1e-d995-4b92-8c0c-6913dd4c73dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option:nth-child(2) button:nth-child(4) > i",
+      "targets": [
+        ["css=.option:nth-child(2) button:nth-child(4) > i", "css:finder"],
+        ["xpath=//div[@id='_wep']/div/div/div/div/div[2]/div[2]/button[4]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button[4]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7333241e-9a84-48bc-9d56-9c8e4d314df1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.panel_bar .option:nth-child(1) button:nth-child(3) > span",
+      "targets": [
+        ["css=.panel_bar .option:nth-child(1) button:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='_wep']/div/div/div/div/div/div[2]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'+1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab40cb63-3b74-42a3-be2e-d652591c4a44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Одно окно",
+      "targets": [
+        ["linkText=Одно окно", "linkText"],
+        ["css=.parent:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Одно окно')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/одно-окно')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одно окно')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "505cfe07-a0a0-4cf6-9133-f8d4f659f419",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Режим работы учреждения",
+      "targets": [
+        ["linkText=Режим работы учреждения", "linkText"],
+        ["css=.parent:nth-child(2) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Режим работы учреждения')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/одно-окно/режим-работы-учреждения')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Режим работы учреждения')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1421d41e-5e3e-4b21-9235-99090c7c5a64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Электронное обращение",
+      "targets": [
+        ["linkText=Электронное обращение", "linkText"],
+        ["css=.parent_active:nth-child(1) li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Электронное обращение')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/одно-окно/электронное-обращение')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a24027c-3d02-4d5b-ad20-2ac079209ab8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,208.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70491c79-569a-49a2-8e94-3861b327594a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Воспитательная работа",
+      "targets": [
+        ["linkText=Воспитательная работа", "linkText"],
+        ["css=.parent:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Воспитательная работа')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/воспитательная-работа/мероприятия')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Воспитательная работа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00662cfb-af37-45f2-9d11-fa2307a75b46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Система дополнительного образования детей и молодежи",
+      "targets": [
+        ["linkText=Система дополнительного образования детей и молодежи", "linkText"],
+        ["css=.parent:nth-child(7) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Система дополнительного образования детей и молодежи')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[7]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/воспитательная-работа/система-дополнительного-образования-детей-и-молодежи')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Система дополнительного образования детей и молодежи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba3ff4c8-bfac-4642-85af-09e51a8a7158",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Военно-патриотическое воспитание",
+      "targets": [
+        ["linkText=Военно-патриотическое воспитание", "linkText"],
+        ["css=.parent_active:nth-child(1) li:nth-child(10) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Военно-патриотическое воспитание')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/воспитательная-работа/военно-патриотическое-воспитание')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e503976f-6c3c-4cf3-ad36-aeac07016438",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,243.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4315a648-9532-4e80-b029-ac6915a322bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.panel_bar .option:nth-child(2) button:nth-child(2) > i",
+      "targets": [
+        ["css=.panel_bar .option:nth-child(2) button:nth-child(2) > i", "css:finder"],
+        ["xpath=//div[@id='_wep']/div/div/div/div/div[2]/div[2]/button[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3914a585-9b16-4a89-ada9-0a6b897c8a5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-eye-open",
+      "targets": [
+        ["css=.glyphicon-eye-open", "css:finder"],
+        ["xpath=//div[@id='header_bar']/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b46ec731-4ead-4ea4-97a2-38a7aba02ac7",
+    "name": "ChangeLanguageTest",
+    "commands": [{
+      "id": "0185a789-ce3f-4bf3-ac22-ba84e3153a8a",
+      "comment": "",
+      "command": "open",
+      "target": "https://gimnasia.volozhin-edu.gov.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0984d846-2b6d-48fe-a040-1cb006caceac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "908x767",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29a36b9a-0b88-4f08-a647-7b2355df9663",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > img",
+      "targets": [
+        ["css=a:nth-child(5) > img", "css:finder"],
+        ["xpath=//div[@id='header_bar']/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d3d794-e179-4c75-8a9a-1b9a594057c1",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=Выбрать язык"
+    }, {
+      "id": "627f29e4-456a-4b10-a87e-5f34496974ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Обучающимся",
+      "targets": [
+        ["linkText=Обучающимся", "linkText"],
+        ["css=.parent:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Обучающимся')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/обучающимся/организация-образовательного-процесса')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Обучающимся')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9890fd7-f2a8-407f-9e49-4c17ffe7bc19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Организация образовательного процесса",
+      "targets": [
+        ["linkText=Организация образовательного процесса", "linkText"],
+        ["css=.parent:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Организация образовательного процесса')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/обучающимся/организация-образовательного-процесса')])[2]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Организация образовательного процесса')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43ec364d-c5be-4ea9-9f65-d572f1c77327",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,209.60000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e903fb6-cc9f-4bfa-9d59-95d056dc6366",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(6) > img",
+      "targets": [
+        ["css=a:nth-child(6) > img", "css:finder"],
+        ["xpath=//div[@id='header_bar']/div/a[3]/img", "xpath:idRelative"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7838027e-53e7-48a1-b4d8-720d8cd8ea82",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=белорусский"
+    }, {
+      "id": "69d838ab-04a9-4bfb-8015-c90bf6afc11e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=белорусский"
+    }, {
+      "id": "eb2ac716-090e-4982-9937-bb8a893faee6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Аб заснаванні",
+      "targets": [
+        ["linkText=Аб заснаванні", "linkText"],
+        ["css=.level_0:nth-child(2) > .parent:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='nav_body']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/визитка-учреждения')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Аб заснаванні')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75b09d64-6798-419e-8541-253e745eb3dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.level_0:nth-child(2) > .parent li:nth-child(3) font > font",
+      "targets": [
+        ["css=.level_0:nth-child(2) > .parent li:nth-child(3) font > font", "css:finder"],
+        ["xpath=//div[@id='nav_body']/ul/li/ul/li[3]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[3]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dbfb0b8-6e5b-4486-912a-6e68acf08e92",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,232)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0cbafc8-1da3-4b41-bb96-d56b20880d2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gallery:nth-child(3) > .item:nth-child(3) > img",
+      "targets": [
+        ["css=.gallery:nth-child(3) > .item:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='20211220_093222']", "xpath:img"],
+        ["xpath=//div[@id='body']/div/div[2]/div[3]/div/a[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f1dc21-69d9-475a-b8d2-e9154d5d454a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-slide",
+      "targets": [
+        ["css=.fancybox-slide", "css:finder"],
+        ["xpath=//div[@id='fancybox-container-1']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d13c2801-9bcd-423b-b797-f8302d9ea9b6",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=английский"
+    }, {
+      "id": "f16286af-1206-44c9-923d-95a189432a50",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=английский"
+    }, {
+      "id": "f646131a-011b-4fcc-a6ea-28d83f7942eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prevention",
+      "targets": [
+        ["linkText=Prevention", "linkText"],
+        ["css=.parent:nth-child(8) > a", "css:finder"],
+        ["xpath=//div[@id='nav_body']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/профилактика')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prevention')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "434945c9-1be7-4a67-9fc8-e19b57080a26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.parent:nth-child(8) li:nth-child(2) font > font",
+      "targets": [
+        ["css=.parent:nth-child(8) li:nth-child(2) font > font", "css:finder"],
+        ["xpath=//div[@id='nav_body']/ul/li[8]/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b14abef-4b3d-4d3f-8912-c4ba16d291c4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1061.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e2439c8-4bc8-4c3f-9ae3-b3b32c2a55a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.entry:nth-child(2) > .content",
+      "targets": [
+        ["css=.entry:nth-child(2) > .content", "css:finder"],
+        ["xpath=//div[@id='body']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "644b1477-2ab6-41a7-a3fe-da2cca185e54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.entry:nth-child(2) > .content",
+      "targets": [
+        ["css=.entry:nth-child(2) > .content", "css:finder"],
+        ["xpath=//div[@id='body']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9524ae82-25cf-4af3-a515-6a0c67b7a444",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2291.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "750df562-a4e4-4a8d-a945-1223ba970e74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4 > .level_0 > li:nth-child(3) font > font",
+      "targets": [
+        ["css=.col-sm-4 > .level_0 > li:nth-child(3) font > font", "css:finder"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/ul/li[3]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/ul/li[3]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d92d95-999f-4282-9c04-7dc9c4c0cfcf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,343.20001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b23e3e49-68e8-4298-9fb0-c2cd29b39db5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.level_2 > li:nth-child(12) font > font",
+      "targets": [
+        ["css=.level_2 > li:nth-child(12) font > font", "css:finder"],
+        ["xpath=//div[@id='body']/div/div[2]/ul/li/ul/li[2]/ul/li[12]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li/ul/li[2]/ul/li[12]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8450b36f-88e3-4a7c-abc3-f2bfcac904bc",
+    "name": "PollTest",
+    "commands": [{
+      "id": "cb6d642c-2f7b-4919-a4f6-5d0b0a4a6651",
+      "comment": "",
+      "command": "open",
+      "target": "https://gimnasia.volozhin-edu.gov.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8a6b71d-5504-4fa8-803a-01457dc94093",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1488x878",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baec5d87-f9d1-41f7-a823-619d80bb00ca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1689.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80c5732a-37e0-4d58-abbc-9a5e8046f4e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > img",
+      "targets": [
+        ["css=a:nth-child(5) > img", "css:finder"],
+        ["xpath=//div[@id='header_bar']/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2854cb4e-6e64-44a3-83f6-79bfed251cf9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=русский"
+    }, {
+      "id": "5c910d76-ade1-40ec-b87a-487d88955422",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=Выбрать язык"
+    }, {
+      "id": "4a759fa3-5cfe-4cb0-a507-a180ce5db7bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4)",
+      "targets": [
+        ["css=label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='body']/div[4]/div/div/div[3]/div[2]/div/div/div/div/label[4]", "xpath:idRelative"],
+        ["xpath=//label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'Галстук с эмблемой гимназии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1cbdae-f5cf-448c-bebc-bac0da891d15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VoteSubmitButton",
+      "targets": [
+        ["css=.VoteSubmitButton", "css:finder"],
+        ["xpath=//div[@id='body']/div[4]/div/div/div[3]/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Проголосовать!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e06b86-a0a6-49c7-921e-7474672eef5d",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Спасибо за высказанное мнение!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c155fae8-1dbd-46ed-ba44-0bafd2a7f032",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Результаты опросов",
+      "targets": [
+        ["linkText=Результаты опросов", "linkText"],
+        ["css=.poll_results", "css:finder"],
+        ["xpath=(//a[contains(text(),'Результаты опросов')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div[4]/div/div/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/результаты-опросов')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca203a15-e8ac-41ba-b5e6-1d4fd1705cf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=g:nth-child(4) > path:nth-child(2)",
+      "targets": [
+        ["css=g:nth-child(4) > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22711f65-d67d-4398-8331-2490dfa3360f",
+      "comment": "",
+      "command": "click",
+      "target": "css=path:nth-child(3)",
+      "targets": [
+        ["css=path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "accaaef7-eb5a-4168-a5fe-6256a2e72a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=g:nth-child(6) > path:nth-child(2)",
+      "targets": [
+        ["css=g:nth-child(6) > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9ba8d4ad-112c-4a01-a072-132c75949d47",
+    "name": "SearchTest",
+    "commands": [{
+      "id": "6f93c804-bbbb-490c-b7a3-42d855a1c9c4",
+      "comment": "",
+      "command": "open",
+      "target": "https://gimnasia.volozhin-edu.gov.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9a7d298-1b8b-472b-9efb-f739d2a44c71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1488x878",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3034fd70-0935-4d5f-965d-90af6947bb38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_field",
+      "targets": [
+        ["css=.search_field", "css:finder"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d27ecad-cb6c-4347-aa21-92f6af88b819",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bc9e58-f541-4fb4-9a94-cdc1e402e358",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "стиль"
+    }, {
+      "id": "2922a56f-6af1-42b9-9e90-fd86f851d5b8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e602caf8-668c-4f8d-8742-488e4073b791",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Архив новостей",
+      "targets": [
+        ["linkText=Архив новостей", "linkText"],
+        ["css=.parent_active:nth-child(1) > .level_1 > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Архив новостей')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/архив-новостей')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf4a2288-d77f-4ec9-993b-9432d58bf683",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Архив новостей",
+      "targets": [
+        ["linkText=Архив новостей", "linkText"],
+        ["css=.parent_active:nth-child(1) > .level_1 > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Архив новостей')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/архив-новостей')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bab0560-7ff5-40b3-ab94-0bf7e84b9bb0",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f9edac-0403-44f3-a0f9-560e6bd54ed6",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "одежда"
+    }, {
+      "id": "8f167eac-8db6-409c-ab3a-70c63ec634b9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "48eaed07-457c-4d46-ac2c-f2a385da70c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,344.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f1ec659-be72-40bd-b790-b92b6332598b",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfae38eb-c811-45ec-81c3-870f598d0321",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Деловой стиль одежды"
+    }, {
+      "id": "28507d15-9def-4d64-8d50-fedb49b8d229",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "66df2361-c396-4249-b92d-77a7a32809d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df4f4c88-f2cb-4e8a-b0c7-7278263b82a8",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "родителям"
+    }, {
+      "id": "3b752325-c878-473b-a9b3-3f73f1b5d500",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "ab6a4099-506a-47b4-9853-031b8407f4b1",
+    "name": "Base",
+    "commands": [{
+      "id": "5c987955-e302-498c-8392-d68d6c6a59fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://gimnasia.volozhin-edu.gov.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef49d399-4fce-4a8a-9b46-33f6fe96bce8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "908x862",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fa10433-a8e6-4240-8066-47ab5e2b4a31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Обучающимся",
+      "targets": [
+        ["linkText=Обучающимся", "linkText"],
+        ["css=.parent:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Обучающимся')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/обучающимся/организация-образовательного-процесса')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Обучающимся')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6105e0-1840-4e4a-9cdc-f80fd89df1b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Организация образовательного процесса",
+      "targets": [
+        ["linkText=Организация образовательного процесса", "linkText"],
+        ["css=.parent:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Организация образовательного процесса')]", "xpath:link"],
+        ["xpath=//div[@id='nav_body']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/обучающимся/организация-образовательного-процесса')])[2]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Организация образовательного процесса')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d69fb746-1349-4019-bf16-8f0081c5dd20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Гостевая книга",
+      "targets": [
+        ["linkText=Гостевая книга", "linkText"],
+        ["css=.col-sm-4 > .level_0 > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Гостевая книга')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/гостевая-книга')])[2]", "xpath:href"],
+        ["xpath=//div/div/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ebc779-fcd0-4631-b15f-43314885c1d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Оставить запись",
+      "targets": [
+        ["linkText=Оставить запись", "linkText"],
+        ["css=.parent_active:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Оставить запись')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/оставить-запись')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c6f335-8fa7-4a95-a87f-f8506d21e8e2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,210.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86619985-3d53-4414-af3f-c448adf6645a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Оставить запись",
+      "targets": [
+        ["linkText=Оставить запись", "linkText"],
+        ["css=.parent_active:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Оставить запись')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/оставить-запись')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ccd3912-bb45-4841-993a-7ec9862c9737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4 > .level_0 > li:nth-child(3) > a",
+      "targets": [
+        ["css=.col-sm-4 > .level_0 > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Карта сайта')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/сервисы/карта-сайта')])[3]", "xpath:href"],
+        ["xpath=//div/div/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dbb33fc-b4c2-4a81-a8c5-cc2dc24f68f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Задачи и функции",
+      "targets": [
+        ["linkText=Задачи и функции", "linkText"],
+        ["css=.parent:nth-child(1) > .level_2 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Задачи и функции')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[2]/ul/li/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about/задачи-и-функции')])[2]", "xpath:href"],
+        ["xpath=//li/ul/li/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac836879-18c3-48a4-8545-b97d1a0926a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Цель деятельности гимназии",
+      "targets": [
+        ["linkText=Цель деятельности гимназии", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Цель деятельности гимназии')]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[2]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/files/00809/obj/110/51873/doc/%D0%9C%D0%95%D0%A2%D0%9E%D0%94%D0%98%D0%A7%D0%95%D0%A1%D0%9A%D0%90%D0%AF%20%D0%A2%D0%95%D0%9C%D0%90%20,%20%D0%A6%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B3%D0%B8%D0%BC%D0%BD%D0%B0%D0%B7%D0%B8%D0%B8%202022.doc')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Цель деятельности гимназии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0309d48-1ff3-4353-bfd6-8b29cbbf131d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Информатизация",
+      "targets": [
+        ["linkText=Информатизация", "linkText"],
+        ["css=.level_0:nth-child(1) .level_1 > li:nth-child(11) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Информатизация')])[2]", "xpath:link"],
+        ["xpath=//div[@id='body']/div/div[3]/div/div[2]/ul/li/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about/информатизация')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/ul/li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01c7da18-d6df-4e65-813b-04ddaa3b0968",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://gymn1volozhin.schools.by/", "https://gimnasia.volozhin-edu.gov.by/"],
+  "plugins": []
+}

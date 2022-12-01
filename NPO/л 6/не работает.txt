@@ -1,0 +1,75 @@
+using OpenQA.Selenium;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Interactions;
+[TestFixture]
+public class SearchTestTest
+{
+    private IWebDriver driver;
+    public IDictionary<string, object> vars { get; private set; }
+    private IJavaScriptExecutor js;
+    [SetUp]
+    public void SetUp()
+    {
+        driver = new FirefoxDriver();
+        js = (IJavaScriptExecutor)driver;
+        vars = new Dictionary<string, object>();
+    }
+    [TearDown]
+    protected void TearDown()
+    {
+        driver.Quit();
+    }
+    [Test]
+    public void searchTest()
+    {
+        driver.Navigate().GoToUrl("https://gimnasia.volozhin-edu.gov.by/");
+        driver.Manage().Window.Size = new System.Drawing.Size(1488, 878);
+        driver.FindElement(By.CssSelector(".search_field")).Click();
+        driver.FindElement(By.Name("text")).Click();
+        driver.FindElement(By.Name("text")).SendKeys("стиль");
+        driver.FindElement(By.Name("text")).SendKeys(Keys.Enter);
+        /*{
+            var element = driver.FindElement(By.LinkText("Архив новостей"));
+            Actions builder = new Actions(driver);
+            builder.MoveToElement(element).Perform();
+        }*/
+        {
+            var element = driver.FindElement(By.TagName("body"));
+            Actions builder = new Actions(driver);
+            builder.MoveToElement(element, 0, 0).Perform();
+        }
+        //driver.FindElement(By.CssSelector(".b-hint")).Click();
+        driver.FindElement(By.Name("text")).Click();
+        driver.FindElement(By.Name("text")).SendKeys("одежда");
+        driver.FindElement(By.Name("text")).SendKeys(Keys.Enter);
+        js.ExecuteScript("window.scrollTo(0,344.79998779296875)");
+        driver.FindElement(By.Name("text")).Click();
+        driver.FindElement(By.Name("text")).SendKeys("Деловой стиль одежды");
+        driver.FindElement(By.Name("text")).SendKeys(Keys.Enter);
+        driver.FindElement(By.Name("text")).Click();
+        driver.FindElement(By.Name("text")).SendKeys("родителям");
+        driver.FindElement(By.Name("text")).SendKeys(Keys.Enter);
+        driver.FindElement(By.CssSelector(".b-top-wizard")).Click();
+        driver.FindElement(By.CssSelector(".b-hint")).Click();
+    }
+}
+
+
+
+
+/*namespace SchoolTests
+{
+    public class Tests
+    {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
+        [Test]
+        public void Test1()
+        {
+            Assert.Pass();
+        }
+    }
+}*/
